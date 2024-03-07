@@ -1,0 +1,43 @@
+body *{
+    border: 1px solid black;
+    height:50px;
+    margin: 10px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+nav{
+    height: 50px;
+}
+
+main{
+    height: 40vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    width: 100%;
+    justify-content: space-between;
+    justify-content: center;
+    display: flex;
+    border: none;
+}
+
+aside{
+    height: 30vh;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+
+footer{
+    height: 50px;
+    width: 100%;
+    margin-top: 265px;
+}
