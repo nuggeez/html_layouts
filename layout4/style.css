@@ -1,0 +1,80 @@
+body * {
+  height: 50px;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  height: 150px;
+  border: 1px solid black;
+}
+
+nav {
+  height: 50px;
+  border: 1px solid black;
+}
+
+main {
+  width: 100%;
+  height: 65vh;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+
+section {
+  width: 60%;
+  height: 65vh;
+  border: 1px solid black;
+}
+
+aside {
+  height: 65vh;
+  width: 40%;
+  display: flex;
+  flex-direction: column; /* Stack boxes vertically */
+  justify-content: space-between; /* Push Box 3 to the bottom */
+  border: 1px solid black;
+}
+
+.top-boxes {
+  display: flex; /* Align Box 1 and Box 2 horizontally */
+  justify-content: space-between; /* Space between Box 1 and Box 2 */
+  width: 100%; /* Full width of the aside */
+}
+
+.top-boxes div {
+  margin: 5px;
+  height: 400%; /* Keep the height as it is */
+  border: 1px solid black;
+  flex: 1 1 40%; /* Adjust the flex property */
+  margin-top: 190px;
+}
+
+.top-boxes div:first-child {
+  flex: 1 1 1%; /* Make Box 1 wider */
+  margin-left: 20px;
+}
+
+.top-boxes div:last-child {
+  flex: 1 1 40%; /* Make Box 2 narrower */
+  margin-right: 20px;
+}
+
+.bottom-box {
+  width: 93%; /* Make Box 3 span the full width */
+  height: 49%;
+  align-self: center; /* Center Box 3 horizontally */
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+footer {
+  height: 50px;
+  justify-content: center;
+  border: 1px solid black;
+}
